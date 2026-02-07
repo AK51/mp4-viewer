@@ -1,0 +1,17 @@
+README.md
+setup.py
+mp4_zoom_viewer.egg-info/PKG-INFO
+mp4_zoom_viewer.egg-info/SOURCES.txt
+mp4_zoom_viewer.egg-info/dependency_links.txt
+mp4_zoom_viewer.egg-info/entry_points.txt
+mp4_zoom_viewer.egg-info/requires.txt
+mp4_zoom_viewer.egg-info/top_level.txt
+src/__init__.py
+src/controller/__init__.py
+src/engines/__init__.py
+src/models/__init__.py
+src/ui/__init__.py
+tests/__init__.py
+tests/test_setup.py
+tests/property/__init__.py
+tests/unit/__init__.py

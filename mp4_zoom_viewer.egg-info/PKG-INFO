@@ -1,0 +1,128 @@
+Metadata-Version: 2.4
+Name: mp4-zoom-viewer
+Version: 0.1.0
+Summary: A video player with advanced zoom and tracking capabilities
+Author: MP4 Zoom Viewer Team
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: opencv-python==4.8.1.78
+Requires-Dist: numpy==1.24.3
+Requires-Dist: PyQt5==5.15.10
+Requires-Dist: pytest==7.4.3
+Requires-Dist: hypothesis==6.92.1
+Requires-Dist: pytest-cov==4.1.0
+Requires-Dist: pytest-timeout==2.2.0
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# MP4 Zoom Viewer
+
+A video player application with advanced zoom and tracking capabilities using computer vision.
+
+## Features
+
+- MP4 video playback with standard controls (play, pause, stop, seek)
+- Separate zoom window with adjustable magnification (1.5x - 10x)
+- Interactive panning with cursor tracking
+- Template-based object tracking using OpenCV
+- Real-time frame synchronization between main player and zoom window
+
+## Project Structure
+
+```
+mp4-zoom-viewer/
+├── src/                    # Source code
+│   ├── __init__.py
+│   ├── models/            # Data models
+│   ├── engines/           # Core engines (video, zoom, template matching)
+│   ├── ui/                # User interface components
+│   └── controller/        # Application controller
+├── tests/                 # Test suite
+│   ├── __init__.py
+│   ├── unit/             # Unit tests
+│   └── property/         # Property-based tests
+├── data/                  # Test video files (not in version control)
+├── requirements.txt       # Python dependencies
+├── pytest.ini            # Pytest configuration
+└── conftest.py           # Shared test fixtures
+
+```
+
+## Setup
+
+### 1. Create Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+### 2. Activate Virtual Environment
+
+**Windows:**
+```bash
+venv\Scripts\activate
+```
+
+**macOS/Linux:**
+```bash
+source venv/bin/activate
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## Running Tests
+
+Run all tests:
+```bash
+pytest
+```
+
+Run only unit tests:
+```bash
+pytest -m unit
+```
+
+Run only property-based tests:
+```bash
+pytest -m property
+```
+
+Run with coverage report:
+```bash
+pytest --cov=src --cov-report=html
+```
+
+## Development
+
+This project uses:
+- **OpenCV** for video processing and template matching
+- **PyQt5** for the graphical user interface
+- **pytest** for unit testing
+- **Hypothesis** for property-based testing
+
+## Requirements
+
+- Python 3.8+
+- OpenCV 4.8+
+- PyQt5 5.15+
+- NumPy 1.24+
+
+## License
+
+TBD

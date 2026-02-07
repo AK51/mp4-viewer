@@ -1,0 +1,16 @@
+# MP4 Zoom Viewer Dependencies
+
+# Video processing
+opencv-python==4.8.1.78
+numpy==1.24.3
+
+# GUI framework
+PyQt5==5.15.10
+
+# Testing frameworks
+pytest==7.4.3
+hypothesis==6.92.1
+
+# Additional testing utilities
+pytest-cov==4.1.0
+pytest-timeout==2.2.0
