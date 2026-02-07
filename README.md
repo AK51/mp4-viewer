@@ -1,4 +1,6 @@
-# MP4 Zoom Viewer
+# MP4 Zoom Viewer (Solar mp4 viewer)
+<img width="1269" height="764" alt="mp4_main" src="https://github.com/user-attachments/assets/35a40d17-f9e3-439d-88eb-fb2e0105ff05" />
+
 
 A professional video player application with advanced zoom and tracking capabilities using computer vision. Features a Matrix-inspired interface with floating zoom window and automatic template tracking.
 
@@ -217,3 +219,4 @@ For issues, questions, or suggestions, please open an issue on GitHub.
 ---
 
 **Note**: This application was developed with assistance from Kiro AI for rapid prototyping and implementation.
+
